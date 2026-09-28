@@ -1,0 +1,371 @@
+
+
+
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #D7BFA4;
+	font-family: 'Libre Caslon Display', 'Times New Roman', Times, serif;
+}
+
+
+
+.navigation{
+	background-color: #BFA284;
+}
+
+
+.items{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	align-items: center;
+	max-width: 1920px;
+	gap: 20px;
+}
+.items a{
+	color: black;
+}
+.items h4{
+	font-weight: 100;
+}
+.active{
+	text-decoration: underline;
+	color: black;
+	width: 150px;
+}
+
+.suchbutton{
+	border: none;
+	border-bottom: 1px solid black;
+	background: transparent;
+}
+.lupeicon img{
+	width: 25px;
+	height: auto;
+}
+.lupeicon a{
+	width: 40px;
+}
+.suche{
+	display: flex;
+	flex-direction: row;
+}
+
+.icons{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	gap: 15px;
+}
+.icons img{
+	width: 30px;
+	height: auto;
+}
+
+
+
+.dropdown-wrapper {
+	position: relative;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	width: 150px;
+}
+.dropdown-wrapper:hover .dropdown-content {
+	display: block;
+}
+.dropdown-wrapper:hover a {
+	background: #BFA284;
+}
+.dropdown-wrapper > div > a:hover {
+	background: rgba(213, 198, 179);
+}
+nav > div > a {
+	background: #BFA284;
+}
+nav a {
+	display: block;
+	padding: 1em 0em;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+
+.dropbtn{
+	width: 150px;
+}
+
+
+.camille{
+	color: #6D4C3D;
+	width: 200px;
+	font-size: 22pt;
+}
+
+
+
+
+
+
+
+
+
+
+.camillegrid{
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-top: 3%;
+}
+.thecamillestory{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.thecamillestory img{
+	width: 620px;
+	height: auto;
+	max-width: 45vw;
+}
+.thecamillestory h2{
+	text-align: center;
+	font-size: 2vw;
+	margin-bottom: 4%;
+}
+.thecamillestory p{
+	max-width: 45vw;
+	font-size: 1.15vw;
+	line-height: 30px;
+	text-align: justify;
+	letter-spacing: 0.5px;
+}
+.thecamillestory p a{
+	text-decoration: none;
+	color: #686868;
+}
+
+
+
+.visiongrid{
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-top: 5%;
+}
+.unserevision{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.unserevision img{
+	width: 620px;
+	height: auto;
+	max-width: 45vw;
+}
+.unserevision h2{
+	text-align: center;
+	font-size: 2vw;
+	margin-bottom: 4%;
+}
+.unserevision p{
+	max-width: 45vw;
+	font-size: 1.15vw;
+	line-height: 30px;
+	text-align: justify;
+	letter-spacing: 0.5px;
+}
+
+
+
+
+.prozessgrid{
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+.derprozess{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.derprozess img{
+	width: 550px;
+	height: auto;
+	max-width: 45vw;
+}
+.derprozess h2{
+	text-align: center;
+	font-size: 2vw;
+	margin-bottom: 4%;
+}
+.derprozess p{
+	max-width: 45vw;
+	font-size: 1.15vw;
+	line-height: 30px;
+	text-align: justify;
+	letter-spacing: 0.5px;
+}
+
+
+.kurzerstrichüberschrift{
+	border-bottom: 1px solid black;
+	max-width: 60vw;
+	margin-bottom: 4%;
+}
+
+
+.derprozessfoto {
+	position: relative;
+	top: 50%;
+	left: 45%;
+	transform: translate(-50%, -50%);
+	width: 100vw;
+}
+.derprozessfoto img{
+	display: block;
+	margin-top: 25%;
+	margin-left: 13%;
+	max-width: 40vw;
+	width: 550px;
+	height: auto;
+}
+.überschriftprozess{
+	position: relative;
+	height: auto;
+	top: -900px;
+	margin-left: 79%;
+	transform: translate(-50%, -50%);
+	font-size: 25pt;
+}
+
+.derprozesstext p{
+	height: auto;
+	max-width: 43%;
+	margin: 0;
+	position: relative;
+	top: -798px;
+	left: 74%;
+	transform: translate(-50%, -50%);
+	width: 1100px;
+	height: 138px;
+	font-size: 14pt;
+	line-height: 30px;
+	text-align: justify;
+	margin-bottom: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+.footer{
+	background-color: #BFA284;
+	border-top: 2px solid black;
+	padding-bottom: 5px;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 5%;
+}
+
+
+
+.footerobererteil{
+	display: flex;
+	flex-direction: row;
+}
+footer{
+	display: flex;
+	flex-direction: row;
+	margin-left: 9%;
+	margin-top: 3%;
+	line-height: 50px;
+}
+.footer a{
+	text-decoration: none;
+	color: #505050;
+	font-size: 1.2vw;
+}
+
+
+
+.linksbegriffe{
+	display: flex;
+	flex-direction: row;
+	gap: 100px;
+}
+.erstebegriffe{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.zweitebegriffe{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 40vw;
+}
+
+
+.rechtsbegriffe{
+	display: flex;
+	flex-direction: row;
+	gap: 50px;
+}
+.kurzerstrich{
+	height: 300px;
+	border-right: 1px solid #505050;
+}
+.kontakt{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	color: #505050;
+	font-size: 1.2vw;
+}
+.sozialemedien{
+	display: flex;
+	flex-direction: column;
+	margin-top: 6%;
+}
+.logos {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	margin-top: 3%;
+}
+.logos img{
+	width: 2vw;
+}
+
+
+.footeruntererteil{
+	display: flex;
+	flex-direction: column;
+	margin-top: 2%;
+	margin-left: 5%;
+}
+.langerstrich{
+	border-bottom: 1px solid #505050;
+	max-width: 90vw;
+}
+.footeruntererteil a{
+	text-decoration: none;
+	color: #505050;
+	margin-left: 3%;
+	font-size: 1vw;
+	margin-bottom: 1%;
+	margin-top: 1%;
+}
+
